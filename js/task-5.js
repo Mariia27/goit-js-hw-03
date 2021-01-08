@@ -14,7 +14,7 @@ const getAllPropValues = function(arr, prop) {
      const newArr = [];
     for (const item of arr) {
         let value = item[prop];
-        if (value!= undefined) {
+        if (value !== undefined) {
             // const element = arr[prop];
             newArr.push(value);
         }

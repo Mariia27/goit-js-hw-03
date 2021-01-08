@@ -14,9 +14,9 @@ const products = [
 const calculateTotalPrice = function(allProdcuts, productName) {
   // твой код
   let total;
-  for (const obj of allProdcuts) {
-    if (obj.name === productName) {
-       total = obj.price * obj.quantity
+  for (const {name, price,quantity} of allProdcuts) {
+    if (name === productName) {
+       total = price * quantity
      }
     
   } 

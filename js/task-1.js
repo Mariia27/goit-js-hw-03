@@ -16,7 +16,7 @@ const user = {
 const key = 'mood';
 user[key] = 'happy';
 user.hobby = 'skydiving';
-user.premium = 'false';
+user.premium = false;
 const keys = Object.keys(user);
 for (const key of keys) {
   console.log(key, user[key]);
